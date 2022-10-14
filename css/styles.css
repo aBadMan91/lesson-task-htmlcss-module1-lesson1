@@ -38,12 +38,21 @@ a {
 
 header a {
     color: #ffffff;
+    padding: 10px;
 }
 
 .cta {
     background-color: #bb0000;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.cta-small {
+    padding: 8px 30px;
+    font-size: 0.8em;
 }
 
 .active {
@@ -54,7 +63,7 @@ header a {
     background-color: #E8E8E8;
 }
 
-.featured--products {
+.featured__products {
     background-color: #FBFBFB;
 }
 
